@@ -1,0 +1,82 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding-right: 35vw;
+}
+
+body {
+    background: url(assets/background.jpg);
+    min-width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -100;
+}
+
+h1 {
+    color: white;
+    margin: 2rem 0 0 5rem;
+    font-size: 40px;
+}
+
+.container-nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid rgba(83, 78, 78, 0.269);
+    width: 35vw;
+    min-height: 100vh;
+    border-radius: 8px;
+    padding: 1.5rem;
+    background: rgba(255,255,255,0.25);
+    backdrop-filter: blur(6px);
+    gap: 35px;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.form-search {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#search-lat, #search-lon {
+    width: 14vw;
+    height: 30px;
+    background: transparent;
+    border: 3px solid transparent;
+    border-bottom-color: rgba(255, 243, 243, 0.298);
+    margin-right: 7px;
+    border-radius: 10px;
+}
+
+#search-btn {
+    background: transparent;
+    border: 0px;
+}
+
+#search-btn:focus-visible {
+    outline: 2px solid #4b86e5;
+    outline-offset: 2px;
+}
+
+.weather-details {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.info {
+    line-height: 3rem;
+    font-size: 20px;
+}
+
+
